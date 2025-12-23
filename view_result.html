@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Cat Wiki</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#0f1220;color:#eaeaf0;}
+.container{max-width:1100px;margin:auto;padding:25px;}
+h1{text-align:center;margin-bottom:30px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;}
+.card{background:#181c36;border-radius:14px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,.4);}
+.card img{width:100%;height:170px;object-fit:cover;}
+.card-body{padding:14px;}
+.name{margin:0;font-size:18px;}
+.type{display:inline-block;margin-top:6px;font-size:12px;background:#2a3166;padding:4px 10px;border-radius:999px;}
+.desc{margin-top:10px;font-size:13px;color:#cfd3ff;line-height:1.4;}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🐈‍⬛ The Cat Wiki 🐈</h1>
+<div class="grid">
+<div class="card">
+<img src="CodeFiles/cat_photos/abyssinian.jpg" alt="Abyssinian">
+<div class="card-body">
+<h3 class="name">Abyssinian</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Abyssinian is one of the oldest known cat breeds and closely resembles the sacred cats of ancient Egypt. With a ticked coat of warm golden hues, it’s curious, intelligent, and full of energy. Abyssinians love to climb, explore, and engage in interactive play.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/african_golden.jpg" alt="African Golden Cat">
+<div class="card-body">
+<h3 class="name">African Golden Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">The African Golden Cat (Caracal aurata) is a secretive wildcat native to the rainforests of Central and West Africa. It has a reddish-gold or gray coat and is closely related to the caracal. Rarely seen in the wild, it plays an important role in forest ecosystems.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/african_wildcat.jpg" alt="African Wildcat">
+<div class="card-body">
+<h3 class="name">African Wildcat</h3>
+<span class="type">Ancestral</span>
+<p class="desc">The African Wildcat (Felis lybica) is the direct ancestor of the domestic cat, native to Africa and the Middle East. It has a sandy coat with faint stripes and a bushy ringed tail. This small, shy predator is still found in the wild and occasionally interbreeds with feral domestic cats.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/american_shorthair.jpg" alt="American Shorthair">
+<div class="card-body">
+<h3 class="name">American Shorthair</h3>
+<span class="type">Domestic</span>
+<p class="desc">The American Shorthair is a sturdy, adaptable breed with a friendly temperament and a strong hunting heritage. It has a dense coat and comes in over 80 color patterns. Calm and easygoing, this all-American cat is famous for its long life and even personality.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/andean_mountain.jpg" alt="Andean Mountain Cat">
+<div class="card-body">
+<h3 class="name">Andean Mountain Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">The Andean Mountain Cat (Leopardus jacobita) is one of the world’s rarest and most endangered wildcats, found in the high Andes of South America. It has a thick, silvery coat and a long, banded tail that helps it balance on rocky slopes. Its elusive nature makes sightings extremely rare.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/asiatic_golden.jpg" alt="Asiatic Golden Cat">
+<div class="card-body">
+<h3 class="name">Asiatic Golden Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">The Asiatic Golden Cat (Catopuma temminckii) is a medium-sized wildcat native to Southeast Asia. Its coat color ranges from golden to gray and even black. Elusive and powerful, it inhabits dense forests and is vital to maintaining ecological balance in its environment.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/asiatic_wildcat.jpg" alt="Asiatic Wildcat">
+<div class="card-body">
+<h3 class="name">Asiatic Wildcat</h3>
+<span class="type">Ancestral</span>
+<p class="desc">The Asiatic Wildcat (Felis lybica ornata) is a subspecies of wildcat native to Central and South Asia. It has a pale sandy coat marked with faint spots and bands on its legs. This species closely resembles the domestic cat and is considered a key ancestor of modern breeds.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/balinese.png" alt="Balinese">
+<div class="card-body">
+<h3 class="name">Balinese</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Balinese is a long-haired variety of the Siamese, distinguished by its silky coat and graceful build. Known for being affectionate, talkative, and intelligent, it combines beauty with playfulness. Balinese cats form deep emotional connections with their owners.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/bengal.jpg" alt="Bengal">
+<div class="card-body">
+<h3 class="name">Bengal</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Bengal is a striking breed that combines the wild look of a leopard with the affectionate nature of a domestic cat. It has a luxurious, glittering coat marked with rosettes or marbling. Highly active and intelligent, Bengals are playful, curious, and enjoy climbing or learning tricks.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/birman.png" alt="Birman">
+<div class="card-body">
+<h3 class="name">Birman</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Birman, or “Sacred Cat of Burma,” is a gentle, affectionate breed with striking blue eyes and pure white “gloves” on its paws. It has a semi-long silky coat and a calm personality, making it a loving companion. Birmans are people-oriented and thrive in peaceful homes.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/black_panther.jpeg" alt="Black Panther">
+<div class="card-body">
+<h3 class="name">Black Panther</h3>
+<span class="type">Wild</span>
+<p class="desc">The Black Panther is not a separate species but a melanistic variant of the leopard or jaguar. Its dark coat helps it camouflage in dense forests. Revered in mythology, it represents mystery and power, and its hidden rosettes are visible under strong light.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/black_footed.jpeg" alt="Black-Footed Cat">
+<div class="card-body">
+<h3 class="name">Black-Footed Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">The Black-Footed Cat (Felis nigripes) is one of the smallest wildcats in the world, native to southern Africa. Despite its tiny size—barely 2 kilograms—it is a fierce nocturnal hunter with an incredible success rate. Known as “the deadliest cat” by kill efficiency, it’s a true miniature predator.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/bobcat.jpg" alt="Bobcat">
+<div class="card-body">
+<h3 class="name">Bobcat</h3>
+<span class="type">Wild</span>
+<p class="desc">The Bobcat (Lynx rufus) is a small wildcat native to North America, instantly recognizable by its short bobbed tail and tufted ears. It’s highly adaptable, found from forests to deserts. Stealthy and powerful for its size, it preys on rabbits and rodents.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/bombay.jpg" alt="Bombay">
+<div class="card-body">
+<h3 class="name">Bombay</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Bombay is a sleek, jet-black domestic breed developed to resemble a miniature panther. With copper eyes and a glossy coat, it’s playful, affectionate, and confident. Bombays are known for following their owners around and enjoying social interaction.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/british_shorthair.jpg" alt="British Shorthair">
+<div class="card-body">
+<h3 class="name">British Shorthair</h3>
+<span class="type">Domestic</span>
+<p class="desc">The British Shorthair is one of the oldest and most cherished domestic cat breeds, known for its dense plush coat, broad face, and calm temperament. Often blue-gray in color (“British Blue”), it is affectionate but not overly demanding, making it ideal for families and quiet homes.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/burmese.jpeg" alt="Burmese">
+<div class="card-body">
+<h3 class="name">Burmese</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Burmese is a compact, muscular domestic breed with a shiny sable coat and large golden eyes. Originally from Burma, it’s affectionate, social, and thrives on companionship. Curious and playful, Burmese cats are among the most people-oriented breeds.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/caracal.png" alt="Caracal">
+<div class="card-body">
+<h3 class="name">Caracal</h3>
+<span class="type">Wild</span>
+<p class="desc">The Caracal (Caracal caracal) is a sleek, powerful wildcat native to Africa, the Middle East, and India. Recognized by its long black ear tufts and reddish coat, it’s an exceptional jumper and fierce hunter. The name “caracal” comes from Turkish, meaning “black ear.”</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/caraval.jpeg" alt="Caraval">
+<div class="card-body">
+<h3 class="name">Caraval</h3>
+<span class="type">Hybrid</span>
+<p class="desc">The Caraval is a rare hybrid between a male Caracal and a female Serval, combining the long-legged elegance of both species. It has a golden coat, spotted markings, and tufted ears. Bred only in captivity, Caravals are athletic, intelligent, and display both wild and domestic traits.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/chausie.png" alt="Chausie">
+<div class="card-body">
+<h3 class="name">Chausie</h3>
+<span class="type">Hybrid</span>
+<p class="desc">The Chausie is a hybrid breed developed from the Jungle Cat (Felis chaus) and domestic cats. It’s tall, athletic, and intelligent, with a short coat and long legs. Curious and energetic, Chausies bond closely with humans and require plenty of stimulation.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/cheetah.jpg" alt="Cheetah">
+<div class="card-body">
+<h3 class="name">Cheetah</h3>
+<span class="type">Wild</span>
+<p class="desc">The Cheetah (Acinonyx jubatus) is the fastest land animal, capable of reaching speeds up to 70 mph in short bursts. Found mostly in Africa, its lightweight frame and tear-mark facial lines make it a superb sprinter and hunter of open savannas. Sadly, it is vulnerable due to habitat loss.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/cheetoh.png" alt="Cheetoh">
+<div class="card-body">
+<h3 class="name">Cheetoh</h3>
+<span class="type">Hybrid</span>
+<p class="desc">The Cheetoh is a modern hybrid breed created by crossing the Bengal and Ocicat. It combines the wild, spotted appearance of its ancestors with the affectionate, social nature of domestic cats. Playful and confident, Cheetohs are intelligent and adapt easily to families.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/clouded_leopard.jpeg" alt="Clouded Leopard">
+<div class="card-body">
+<h3 class="name">Clouded Leopard</h3>
+<span class="type">Wild</span>
+<p class="desc">The Clouded Leopard (Neofelis nebulosa) is a medium-sized wildcat native to the forests of Southeast Asia. Its large cloud-like spots, powerful build, and long tail make it an expert climber. It bridges the evolutionary gap between big cats and smaller felines.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/cornish_rex.jpg" alt="Cornish Rex">
+<div class="card-body">
+<h3 class="name">Cornish Rex</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Cornish Rex is a playful, affectionate cat known for its soft, curly fur and slender body. With high cheekbones and large ears, it looks almost alien-like. Agile, intelligent, and active, Cornish Rex cats are known for their love of jumping, running, and staying close to their humans.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/cougar.png" alt="Cougar">
+<div class="card-body">
+<h3 class="name">Cougar</h3>
+<span class="type">Wild</span>
+<p class="desc">The Cougar (Puma concolor), also called the mountain lion or puma, is a large wildcat native to the Americas. It’s highly adaptable, capable of living in deserts, forests, and mountain ranges. Although powerful and stealthy, cougars cannot roar—communicating instead with purrs and growls.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/devon_rex.jpg" alt="Devon Rex">
+<div class="card-body">
+<h3 class="name">Devon Rex</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Devon Rex is a playful, mischievous cat with large ears, short curly fur, and a pixie-like appearance. Known for its intelligence and people-oriented nature, it often follows its owner around and loves being involved in everything. Energetic yet gentle, it’s one of the most affectionate breeds.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/egyptian_mau.jpg" alt="Egyptian Mau">
+<div class="card-body">
+<h3 class="name">Egyptian Mau</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Egyptian Mau is one of the few naturally spotted domestic cat breeds and is often regarded as the fastest domestic cat. Originating from Egypt, it has a graceful, athletic build, bright green eyes, and a loyal personality. Maus are intelligent, alert, and form deep bonds with their families.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/european_wildcat.jpg" alt="European Wildcat">
+<div class="card-body">
+<h3 class="name">European Wildcat</h3>
+<span class="type">Ancestral</span>
+<p class="desc">The European Wildcat (Felis silvestris silvestris) is native to Europe’s forests and is one of the key ancestors of domestic cats. Stockier than its domestic relatives, it has a thick, bushy tail and a shy temperament. Once near extinction, it’s now slowly recovering in protected reserves.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/exotic_shorthair.jpg" alt="Exotic Shorthair">
+<div class="card-body">
+<h3 class="name">Exotic Shorthair</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Exotic Shorthair is a shorthaired version of the Persian cat, bred for its soft, plush coat and sweet temperament. Gentle, quiet, and loving, it combines the Persian’s charm with lower maintenance needs, making it one of the most popular breeds worldwide.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/fishing_cat.jpg" alt="Fishing Cat">
+<div class="card-body">
+<h3 class="name">Fishing Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">The Fishing Cat (Prionailurus viverrinus) is a medium-sized wildcat from South and Southeast Asia adapted for wetlands. It has partially webbed feet and a water-resistant coat, allowing it to swim efficiently. Uniquely, it hunts fish and other aquatic prey—an uncommon trait among cats.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/flat_headed.jpg" alt="Flat-Headed Cat">
+<div class="card-body">
+<h3 class="name">Flat-Headed Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">The Flat-Headed Cat (Prionailurus planiceps) is a small, semi-aquatic wildcat native to Southeast Asia. Adapted for hunting in wetlands, it has an elongated skull, short legs, and partially webbed feet. Its forward-set eyes and waterproof fur help it catch fish with remarkable precision.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/geoffroy.jpg" alt="Geoffroy’s Cat">
+<div class="card-body">
+<h3 class="name">Geoffroy’s Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">Geoffroy’s Cat (Leopardus geoffroyi) is a small, agile wildcat found in South America, from Bolivia to Argentina. It has a spotted gray or yellow coat and is an excellent climber and swimmer. Despite its small size, it’s a fierce predator of rodents and birds.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/himalayan.jpg" alt="Himalayan">
+<div class="card-body">
+<h3 class="name">Himalayan</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Himalayan is a hybrid of the Persian and Siamese breeds, combining the Persian’s luxurious coat with the Siamese’s pointed coloration. Gentle, affectionate, and calm, it prefers quiet indoor life and is known for its sweet nature and deep blue eyes.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/iberian_lynx.jpg" alt="Iberian Lynx">
+<div class="card-body">
+<h3 class="name">Iberian Lynx</h3>
+<span class="type">Wild</span>
+<p class="desc">The Iberian Lynx (Lynx pardinus) is a critically endangered wildcat native to Spain and Portugal. It has a short tail, spotted fur, and distinctive ear tufts. Once near extinction, reintroduction efforts have revived its numbers, making it a conservation success story.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/jaguar.jpg" alt="Jaguar">
+<div class="card-body">
+<h3 class="name">Jaguar</h3>
+<span class="type">Wild</span>
+<p class="desc">The Jaguar (Panthera onca) is the largest cat in the Americas and the third-largest in the world after tigers and lions. Recognized by its powerful build and distinctive rosettes, it can crush skulls with its bite. Jaguars are strong swimmers and thrive in rainforests and wetlands.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/jungle.jpg" alt="Jungle Cat">
+<div class="card-body">
+<h3 class="name">Jungle Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">The Jungle Cat (Felis chaus), also called the reed cat or swamp cat, is found across South Asia, the Middle East, and parts of Africa. It prefers wetlands and dense vegetation. Agile and adaptable, it is the wild ancestor of hybrid breeds like the Chausie.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/leopard.jpg" alt="Leopard">
+<div class="card-body">
+<h3 class="name">Leopard</h3>
+<span class="type">Wild</span>
+<p class="desc">The Leopard (Panthera pardus) is a large, solitary wildcat found across Africa and Asia, known for its adaptability and rosette-patterned coat. It’s a master climber and can drag prey up trees to avoid scavengers. Stealthy and versatile, it thrives in forests, grasslands, and mountains.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/liger.jpg" alt="Liger">
+<div class="card-body">
+<h3 class="name">Liger</h3>
+<span class="type">Hybrid</span>
+<p class="desc">The Liger is a hybrid between a male lion (Panthera leo) and a female tiger (Panthera tigris), resulting in the largest cat on Earth. Ligers combine features of both parents—lion-like faces with faint tiger stripes—and can grow to over 900 pounds. They exist only in captivity.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/lion.jpg" alt="Lion">
+<div class="card-body">
+<h3 class="name">Lion</h3>
+<span class="type">Wild</span>
+<p class="desc">The Lion (Panthera leo) is one of the most iconic animals on Earth, native to Africa and parts of India. Unique among big cats for its social pride structure, lions are powerful hunters and symbols of courage and royalty. Males are easily recognized by their magnificent manes.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/lynx.png" alt="Lynx">
+<div class="card-body">
+<h3 class="name">Lynx</h3>
+<span class="type">Wild</span>
+<p class="desc">The Lynx is a medium-sized wildcat found throughout the Northern Hemisphere, including Europe, Asia, and North America. It’s instantly recognizable by its tufted ears, short tail, and thick winter coat. Solitary and stealthy, lynxes are skilled hunters of hares and small deer.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/maine_coon.png" alt="Maine Coon">
+<div class="card-body">
+<h3 class="name">Maine Coon</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Maine Coon is one of the largest domestic cat breeds, known for its tufted ears, long bushy tail, and friendly, dog-like personality. Originating from North America, it’s intelligent, gentle, and highly sociable. Its thick fur helps it adapt to cold climates.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/manx.jpg" alt="Manx">
+<div class="card-body">
+<h3 class="name">Manx</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Manx is a tailless cat breed from the Isle of Man, distinguished by its rounded body and strong hind legs. Friendly and loyal, it behaves more like a dog than a cat, often following its owners around. Its lack of a tail is due to a natural genetic mutation.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/margay.jpg" alt="Margay">
+<div class="card-body">
+<h3 class="name">Margay</h3>
+<span class="type">Wild</span>
+<p class="desc">The Margay (Leopardus wiedii) is a small spotted wildcat native to Central and South America. Perfectly adapted for life in the trees, it can rotate its ankles to climb headfirst down trunks. Margays are nocturnal and elusive, relying on dense forest cover for survival.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/norwegian_forest.jpg" alt="Norwegian Forest Cat">
+<div class="card-body">
+<h3 class="name">Norwegian Forest Cat</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Norwegian Forest Cat is a large, long-haired domestic breed developed naturally in the cold forests of Norway. It has a thick double coat, tufted ears, and a strong, muscular body. Friendly and independent, it loves climbing and exploring heights.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/ocelot.jpg" alt="Ocelot">
+<div class="card-body">
+<h3 class="name">Ocelot</h3>
+<span class="type">Wild</span>
+<p class="desc">The Ocelot (Leopardus pardalis) is a medium-sized wildcat native to Central and South America. It has a stunning golden coat patterned with dark rosettes and stripes. Nocturnal and solitary, it’s known for agility, beauty, and adaptability in tropical forests.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/oriental_shorthair.jpg" alt="Oriental Shorthair">
+<div class="card-body">
+<h3 class="name">Oriental Shorthair</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Oriental Shorthair is a sleek, elegant domestic breed related to the Siamese, available in more than 300 color variations. It’s intelligent, expressive, and extremely social, often described as “dog-like” in loyalty and curiosity.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/pallas.jpg" alt="Pallas’s Cat">
+<div class="card-body">
+<h3 class="name">Pallas’s Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">Pallas’s Cat (Otocolobus manul), also called the Manul, is a small wildcat native to Central Asia’s grasslands. Its dense, fluffy coat and flattened face give it a round, expressive look. Adapted for cold climates, it leads a solitary life among rocky steppes.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/persian.jpg" alt="Persian">
+<div class="card-body">
+<h3 class="name">Persian</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Persian is one of the oldest and most luxurious cat breeds, famous for its long flowing coat, flat face, and calm personality. Persians are gentle, affectionate companions who prefer quiet environments. They require daily grooming but reward their owners with serene loyalty.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/ragdoll.jpg" alt="Ragdoll">
+<div class="card-body">
+<h3 class="name">Ragdoll</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Ragdoll is a large, affectionate domestic cat known for its striking blue eyes and tendency to go limp when held—hence its name. Developed in the 1960s, Ragdolls are docile, loving, and great with families. They have soft semi-long fur and enjoy calm indoor life.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/russian_blue.jpg" alt="Russian Blue">
+<div class="card-body">
+<h3 class="name">Russian Blue</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Russian Blue is a graceful domestic breed famous for its shimmering blue-gray coat and vivid green eyes. Quiet, intelligent, and loyal, it forms deep bonds with its owners. Its dense double coat gives it a plush, silvery appearance.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/sand_cat.jpg" alt="Sand Cat">
+<div class="card-body">
+<h3 class="name">Sand Cat</h3>
+<span class="type">Wild</span>
+<p class="desc">The Sand Cat (Felis margarita) is a small desert-dwelling cat adapted to the extreme heat and dryness of arid regions. It has thick fur on its feet to walk on hot sand and can survive for long periods without direct water intake. Elusive and nocturnal, it’s one of the hardest wildcats to spot.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/savannah_cat.jpg" alt="Savannah Cat">
+<div class="card-body">
+<h3 class="name">Savannah Cat</h3>
+<span class="type">Hybrid</span>
+<p class="desc">The Savannah Cat is a striking hybrid between a serval and a domestic cat, known for its tall, lean body and bold spotted coat. It’s intelligent, curious, and highly energetic—more like a small wildcat than a typical pet. Savannahs are loyal, trainable, and love water.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/scottish_fold.jpg" alt="Scottish Fold">
+<div class="card-body">
+<h3 class="name">Scottish Fold</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Scottish Fold is a sweet-natured domestic breed recognized by its distinctive forward-folding ears. Originating from a genetic mutation discovered in Scotland, it has a round face and expressive eyes. Playful and affectionate, it enjoys human company and adapts well to calm households.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/serval.png" alt="Serval">
+<div class="card-body">
+<h3 class="name">Serval</h3>
+<span class="type">Wild</span>
+<p class="desc">The Serval (Leptailurus serval) is a tall, long-legged African wildcat with large ears and a golden spotted coat. Known for its incredible leaping ability, it can jump over 9 feet high to catch prey. Graceful and solitary, it’s also the wild ancestor of the Savannah hybrid breed.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/siamese.png" alt="Siamese">
+<div class="card-body">
+<h3 class="name">Siamese</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Siamese is one of the world’s oldest and most recognized cat breeds, originating from Thailand. Known for its slender body, blue almond-shaped eyes, and pointed coloration, it’s highly social and vocal. Siamese cats are affectionate, intelligent, and thrive on human companionship.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/snow_leopard.png" alt="Snow Leopard">
+<div class="card-body">
+<h3 class="name">Snow Leopard</h3>
+<span class="type">Wild</span>
+<p class="desc">The Snow Leopard (Panthera uncia) is a solitary big cat native to Central Asia’s mountain ranges. With its thick grayish fur and long tail, it is perfectly adapted for cold, rocky environments. Often called the “ghost of the mountains,” it is elusive and endangered due to poaching.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/sphynx.jpg" alt="Sphynx">
+<div class="card-body">
+<h3 class="name">Sphynx</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Sphynx is a unique hairless cat breed known for its wrinkled skin, bat-like ears, and playful, affectionate personality. Despite its lack of fur, it is warm to the touch and loves human contact. Highly social and mischievous, it thrives on companionship and attention.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/tiger.png" alt="Tiger">
+<div class="card-body">
+<h3 class="name">Tiger</h3>
+<span class="type">Wild</span>
+<p class="desc">The Tiger (Panthera tigris) is the largest member of the cat family and an apex predator across Asia. It is instantly recognizable by its orange coat with black stripes and white underside. Tigers are solitary, territorial animals and symbolize power and grace in many cultures.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/tigon.jpeg" alt="Tigon">
+<div class="card-body">
+<h3 class="name">Tigon</h3>
+<span class="type">Hybrid</span>
+<p class="desc">A Tigon is the hybrid offspring of a male tiger (Panthera tigris) and a female lion (Panthera leo). Tigons inherit physical and behavioral traits from both parents—often showing faint tiger stripes over a lion-like coat, with a smaller mane than a lion. They are typically smaller than ligers and occur only in captivity.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/tonkinese.jpg" alt="Tonkinese">
+<div class="card-body">
+<h3 class="name">Tonkinese</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Tonkinese is a sociable and affectionate domestic cat breed developed by crossing the Siamese and Burmese. It has a short, silky “mink” coat and brilliant aqua eyes. Intelligent, chatty, and people-oriented, it’s known for forming strong bonds with its owners.</p>
+</div>
+</div>
+<div class="card">
+<img src="CodeFiles/cat_photos/turkish_angora.jpg" alt="Turkish Angora">
+<div class="card-body">
+<h3 class="name">Turkish Angora</h3>
+<span class="type">Domestic</span>
+<p class="desc">The Turkish Angora is an elegant and ancient domestic breed originating from Turkey’s Ankara region. It features a silky coat, a graceful frame, and often striking odd-colored eyes. Playful and intelligent, Angoras are affectionate without being overly dependent.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
