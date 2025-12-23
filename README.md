@@ -1,4 +1,4 @@
-## This project was created for a learning experience and is meant to be used recreationally, do not use this project for professional/academic work. 
+This project was created for educational purposes and is intended for recreational use. Please don't use this project for professional/academic work. 
 
 ## Requirements
 
@@ -22,16 +22,17 @@ javac --version
 ## How to Use
 
 ### Option 1: If you just want to view the wiki.
-- Double-click `view_result.html`
+- Double-click `view_result.html` in the files once downloaded OR
+- just click this link: https://nishantaryansingh.github.io/the-cat-wiki/view_result.html
 
 ### Option 2: If you want to see the Main.java code generate the wiki again.
-- Optional: delete the `view_result.html` file, but you don't truly have to do this because generating it again replaces the orignal.
+- Optional: delete the `view_result.html` file, but you don't truly have to do this because generating it again replaces the original.
 - Must do for Option 2: Run Main.java on an IDE or a place/method of your choice, and it should generate.
 
 ## Notes
-- Do not use this project's information about cats for professional/academic use as it may not be 100% accurate.
+- Do not use this project's information about cats for professional/academic use, as it may not be 100% accurate.
 - You can delete view_result.html (optional) and run Main.java again to regenerate the Cat wiki page.
-- Cat photos were found online on google images. 
+- Cat photos were found online on Google Images. 
 - ChatGPT 4.0 was used to write the description of each cat breed. It was also used for the CSS design.
 
 ## Troubleshooting
