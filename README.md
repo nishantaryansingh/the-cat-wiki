@@ -23,7 +23,7 @@ javac --version
 
 ### Option 1: If you just want to view the wiki.
 - Double-click `view_result.html` in the files once downloaded OR
-- Just click this link: https://nishantaryansingh.github.io/the-cat-wiki/view_result.html
+- Just click this link: https://nishant2006x.github.io/the-cat-wiki/view_result.html
 
 ### Option 2: If you want to see the Main.java code generate the wiki again.
 - Optional: delete the `view_result.html` file, but you don't truly have to do this because generating it again replaces the original.
